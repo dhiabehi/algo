@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+#shopping-cart{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 6px;
+    font-size: large;
+    text-align:center;
+}
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+#cart-container table thead{
+    font-weight: 700;
+}
+#cart-container table thead td{
+    background-color: burlywood;
+    color: rgb(0, 0, 7);
+    border: none;
+    padding: 6px 0;
+}
+.cont{
+    display: flex;
+    }
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30%;
+}
+
+
